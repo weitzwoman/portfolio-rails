@@ -55,8 +55,8 @@
         null,
         null,
         1,
-        0,
-        0,
+        1,
+        1,
         null,
         null,
         null,
@@ -86,6 +86,13 @@
         1,
         1,
         null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        2,
         null
       ],
       "/Users/TracieTop2/Desktop/personal-site/config/environment.rb": [
@@ -577,6 +584,16 @@
         null,
         null
       ],
+      "/Users/TracieTop2/Desktop/personal-site/spec/factories/projects.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
       "/Users/TracieTop2/Desktop/personal-site/config/routes.rb": [
         1,
         1,
@@ -612,6 +629,9 @@
         1,
         null,
         1,
+        1,
+        1,
+        1,
         null,
         null
       ],
@@ -621,16 +641,16 @@
         null,
         1,
         1,
-        0,
+        1,
         null,
         null,
         null,
-        0,
+        1,
         null,
         null,
         null
       ]
     },
-    "timestamp": 1488569233
+    "timestamp": 1488575196
   }
 }

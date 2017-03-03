@@ -1,10 +1,8 @@
 require 'rails_helper'
 
 describe Project do
-
-
-  # describe '#get_projects' do
-  #
-  # end
-
+  it 'will describe the get_projects model method', :vcr => true do
+    projects = Project.get_projects
+    expect(projects.length).to eq(15)
+  end
 end

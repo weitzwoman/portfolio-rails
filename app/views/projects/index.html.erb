@@ -3,7 +3,7 @@
 <% @projects.each do |project| %>
   <% if project['stargazers_count'] > 0 %>
     <div class="card">
-      <h4><%= link_to project['name'] %></h4>
+      <h3><%= project['name'] %></h3>
       <p><%= project['description'] %></p>
       <p>Language: <%= project['language'] %> | Stars: <%= project['stargazers_count'] %></p>
       <h5><%= link_to "View on GitHub", project['html_url'] %></h5>
