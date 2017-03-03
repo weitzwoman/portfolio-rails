@@ -1,9 +1,16 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/TracieTop2/Desktop/personal-site/spec/models/admin_spec.rb": [
+      "/Users/TracieTop2/Desktop/personal-site/spec/features/add_admin_pages_spec.rb": [
         1,
         null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
         1,
         null,
         null
@@ -55,8 +62,8 @@
         null,
         null,
         1,
-        1,
-        1,
+        2,
+        2,
         null,
         null,
         null,
@@ -625,6 +632,13 @@
         1,
         null
       ],
+      "/Users/TracieTop2/Desktop/personal-site/spec/models/admin_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        null
+      ],
       "/Users/TracieTop2/Desktop/personal-site/spec/models/project_spec.rb": [
         1,
         null,
@@ -649,8 +663,19 @@
         null,
         null,
         null
+      ],
+      "/Users/TracieTop2/Desktop/personal-site/app/controllers/application_controller.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/TracieTop2/Desktop/personal-site/app/controllers/home_controller.rb": [
+        1,
+        1,
+        null,
+        null
       ]
     },
-    "timestamp": 1488578850
+    "timestamp": 1488579750
   }
 }
