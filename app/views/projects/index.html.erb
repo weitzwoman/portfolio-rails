@@ -1,7 +1,8 @@
 
 <h2>Project Index</h2>
 
-<!-- name
-url
-language
-stargazers_count -->
+<% @projects.each do |project| %>
+  <h4><%= link_to project['name'], project['html_url'] %></h4>
+  <p>Language: <%= project['language'] %></p>
+  <p>Stars: <%= project['stargazers_count'] %></p>
+<% end %>
