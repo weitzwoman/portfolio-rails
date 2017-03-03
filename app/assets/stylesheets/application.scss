@@ -42,8 +42,10 @@ $brightblue: #002087;
   list-style-type: none;
   margin: 0;
   padding: 0;
+  vertical-align: middle;
   li {
     display: inline-block;
+    margin: 10px;
   }
 }
 
@@ -75,4 +77,33 @@ h4, h5, h6, p, a, label {
 .card {
   // border: 2px $brightblue;
   margin:  25px 0;
+}
+
+.tent {
+  margin-right: 10px;
+  &:hover {
+    border-bottom: 0;
+  }
+  img {
+    vertical-align: middle;
+    height: 50px;
+    &:hover {
+      opacity: .5;
+    }
+  }
+}
+
+.home-image {
+  position: relative;
+  width: 100%;
+}
+
+.home-image {
+  h1 {
+    position: absolute !important;
+    color: $pink;
+    top: 10px;
+    left: 20px;
+    width: 100%;
+  }
 }
