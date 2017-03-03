@@ -3,7 +3,10 @@ class Project < ActiveRecord::Base
 
   class << self
     def get_projects
-      response = RestClient.get("https://api.github.com/users/weitzwoman/repos?", headers: {"access_token": ENV['API_KEY'] })
+      response = RestClient::Request.new(
+      :method => :get,
+      :url => 'https://api.github.com/users/weitzwoman/repos?per_page=150',
+      headers: {:access_token => ENV['API_KEY']}).execute
       response = JSON.parse(response)
     end
   end
